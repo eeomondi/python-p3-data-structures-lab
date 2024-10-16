@@ -15,6 +15,7 @@ spicy_foods = [
         "heat_level": 6,
     },
 ]
+
 def get_names():
     return [food["name"] for food in spicy_foods]
 
